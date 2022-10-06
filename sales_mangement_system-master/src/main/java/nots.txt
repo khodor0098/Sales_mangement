@@ -1,0 +1,13 @@
+Design patterns implemented:
+singleton
+builder
+strategy
+mvc
+flyweight
+observer
+
+Design patterns to be implemented:
+visitor
+
+
+

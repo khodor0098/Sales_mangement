@@ -1,0 +1,69 @@
+
+
+.v-menu-button{
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#13a7e0, rgba(206, 87, 197, 0.94));
+    -fx-border-radius: 2px;
+    -fx-border-width:  0.1px 0.1px 0.1px 0.1px;
+    -fx-border-color: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(77, 77, 77, 0.6), 5, 0.0 , 0 , 1 );
+}
+
+.v-menu-button:hover{
+    -fx-background-color: linear-gradient(#5F2588FF, #a7d7e9);
+}
+.minbutton{
+    -fx-background-color: #5d3c75;
+}
+.minbutton:hover{
+    -fx-background-color: rgba(109, 68, 136, 0.87);
+}
+#exitButton{
+    -fx-background-color: #5d3c75;
+}
+#exitButton:hover{
+    -fx-background-color: #d20c0c;
+}
+.menu-bar{
+    -fx-background-color: #5d3c75;
+
+}
+.menu-bar3{
+    -fx-background-color: #5d3c75;
+    -fx-effect: dropshadow( three-pass-box , rgba(43, 52, 128, 0.68), 5, 0.0 , 0 , 1 );
+    -fx-border-width: 0 0 0.5px 0;
+    -fx-border-color: black;
+
+}
+.menu-bar .label{
+    -fx-text-fill:white ;
+}
+.menu-bar-v{
+    -fx-text-fill: #090808;
+
+    -fx-background-color: linear-gradient(#0836a8,#5d3c75);
+    -fx-effect: dropshadow( three-pass-box , rgba(43, 52, 128, 0.68), 5, 0.0 , 0 , 1 );
+}
+.menu-button{
+    -fx-text-fill: white;
+}
+.menu-bar .menu-item .label{
+    -fx-text-fill: #0a0a0a;
+}
+.pan{
+    -fx-background-color: #CACFD6;
+}
+
+.text-area{
+    -fx-background-color: #CACFD6;
+}
+.text-area .scroll-bar{
+    -fx-background-color: #5d3c75;
+}
+.text-area .scroll-bar:horizontal .thumb,
+.text-area .scroll-bar:vertical .thumb {
+    -fx-background-color:derive( #5d3c75,90%);
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+
+}
